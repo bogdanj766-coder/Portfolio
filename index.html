@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Boda Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="icon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="icon.ico">
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Monoton&family=Montserrat:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="home">
+      <div class="container">
+        <div class="navigacija">
+          <div class="logo">
+            <img src="./img/logo.svg" alt="logo" />
+          </div>
+          <input type="checkbox" id="menu-toggle" />
+          <label for="menu-toggle" class="hamburger">
+            <span class="line top"></span>
+            <span class="line middle"></span>
+            <span class="line bottom"></span>
+          </label>
+          <nav>
+            <ul>
+              <li><a href="#home">home</a></li>
+              <li><a href="#about">about</a></li>
+              <li><a href="#projects">projects</a></li>
+              <li><a href="#skills">skills</a></li>
+              <li><a href="#contact">contact</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="bogdan">
+          <h1>Bogdan Jovanović</h1>
+          <p>FRONTEND DEVELOPER</p>
+        </div>
+        <div class="tekst">
+          <img src="./img/ideas.svg" alt="ideas" />
+        </div>
+      </div>
+    </header>
+    <main>
+      <section id="about" class="about">
+        <div class="container">
+          <h2>About Me</h2>
+
+          <p class="section-subtitle">
+            A few words about me and my love for web development.
+          </p>
+          <div class="about-me">
+            <div class="about-text">
+              <h3 class="py-3">Frontend Developer from Serbia</h3>
+              <p>
+                Hello, I’m Bogdan Jovanović, a passionate frontend developer
+                with a love for crafting modern, clean, and highly responsive
+                websites. I strive to create user-friendly digital experiences,
+                focusing on simple yet visually impactful designs. I pay special
+                attention to the small details that bring a design to life and
+                make it stand out.
+              </p>
+              <p class="py-2 pb-5">
+                Every day, I push myself to learn new techniques and stay
+                up-to-date with the latest trends in web development. Currently,
+                I’m deepening my expertise in HTML, CSS, and JavaScript, working
+                on various projects that challenge me and help me grow as a
+                developer. My goal is to continually improve my skills and
+                deliver websites that are not only visually appealing but also
+                functional and accessible.
+              </p>
+              <a href="#projects" class="btn">View My Work</a>
+            </div>
+
+            <div class="about-img">
+              <img src="./img/dev-illustration2.svg" alt="Developer illustration" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="projects">
+        <div class="container">
+          <h2>Projects</h2>
+          <p class="section-subtitle">
+            Some of my recent work and personal projects.
+          </p>
+
+          <div class="projects-grid">
+            <article class="project-card">
+              <div class="project-image">
+                <img src="img/portfolio.png" alt="Portfolio Website" />
+              </div>
+              <div class="project-info">
+                <h3>Portfolio Website</h3>
+                <p>
+                  A modern portfolio website built to showcase my web
+                  development skills. It features smooth animations and a
+                  responsive design.
+                </p>
+                <a
+                  href="https://github.com/bogdanj766-coder"
+                  target="_blank  "
+                  class="project-btn"
+                  >View Project</a
+                >
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-image">
+                <img src="img/to-do.png" alt="Todo App" />
+              </div>
+              <div class="project-info">
+                <h3>Todo App</h3>
+                <p>
+                  A simple and elegant task management application built with
+                  React. Users can add, edit, and delete tasks, categorize them,
+                  and mark them as completed.
+                </p>
+                <a
+                  href="https://github.com/bogdanj766-coder"
+                  target="_blank  "
+                  class="project-btn"
+                  >View Project</a
+                >
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-image">
+                <img src="img/weather.png" alt="Weather Dashboard" />
+              </div>
+              <div class="project-info">
+                <h3>Weather Dashboard</h3>
+                <p>
+                  A real-time weather forecast dashboard that fetches data from
+                  public APIs. Users can search for cities to get current
+                  conditions, forecasts, and weather alerts.
+                </p>
+                <a
+                  href="https://github.com/bogdanj766-coder"
+                  target="_blank  "
+                  class="project-btn"
+                  >View Project</a
+                >
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-image">
+                <img src="img/store.png" alt="E-commerce Store" />
+              </div>
+              <div class="project-info">
+                <h3>E-commerce Store</h3>
+                <p>
+                  A fully responsive online store built with React and
+                  integrated with Stripe API for secure payments. Users can
+                  browse products, add them to cart, and complete purchases
+                  seamlessly.
+                </p>
+                <a
+                  href="https://github.com/bogdanj766-coder"
+                  target="_blank  "
+                  class="project-btn"
+                  >View Project</a
+                >
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-image">
+                <img src="img/blog.png" alt="Blog Platform" />
+              </div>
+              <div class="project-info">
+                <h3>Blog Platform</h3>
+                <p>
+                  A comprehensive blogging platform allowing users to create,
+                  edit, and delete posts. It features user authentication,
+                  commenting, and post categorization for a rich blogging
+                  experience.
+                </p>
+                <a
+                  href="https://github.com/bogdanj766-coder"
+                  target="_blank  "
+                  class="project-btn"
+                  >View Project</a
+                >
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-image">
+                <img src="img/chatapp.png" alt="Chat App" />
+              </div>
+              <div class="project-info">
+                <h3>Chat App</h3>
+                <p>
+                  A real-time chat application built with WebSockets, allowing
+                  users to join multiple chat rooms, send messages instantly,
+                  and see live updates from all other participants seamlessly.
+                </p>
+                <a
+                  href="https://github.com/bogdanj766-coder"
+                  target="_blank  "
+                  class="project-btn"
+                  >View Project</a
+                >
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="skills" id="skills">
+        <div class="container">
+          <h2 class="section-title">Skills</h2>
+          <p class="section-subtitle">
+            Technologies and tools I use to build beautiful, functional
+            websites.
+          </p>
+
+          <div class="skills-container">
+            <div class="skill-card">
+              <img
+                src="https://cdn.simpleicons.org/html5/ffffff"
+                alt="HTML5 icon"
+                class="skill-icon"
+              />
+              <h3>HTML5</h3>
+              <p>
+                Semantic, accessible markup for clean and efficient web pages.
+              </p>
+            </div>
+            <div class="skill-card">
+              <img
+                src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/css3.svg"
+                alt="CSS3 icon"
+                class="skill-icon"
+                style="filter: invert(1)"
+              />
+
+              <h3>CSS3</h3>
+              <p>
+                Styling, flexible layouts, animations, and responsive design.
+              </p>
+            </div>
+
+            <div class="skill-card">
+              <img
+                src="https://cdn.simpleicons.org/javascript/ffffff"
+                alt="JavaScript icon"
+                class="skill-icon"
+              />
+              <h3>JavaScript</h3>
+              <p>
+                Dynamic interfaces, interactivity, and smooth user experiences.
+              </p>
+            </div>
+
+            <div class="skill-card">
+              <img
+                src="https://cdn.simpleicons.org/react/ffffff"
+                alt="React icon"
+                class="skill-icon"
+              />
+              <h3>React</h3>
+              <p>Building reusable components and reactive web applications.</p>
+            </div>
+
+            <div class="skill-card">
+              <img
+                src="https://icongr.am/feather/layout.svg?size=64&color=ffffff"
+                alt="Responsive design icon"
+                class="skill-icon"
+              />
+              <h3>Responsive Design</h3>
+              <p>Seamless experience across all devices and screen sizes.</p>
+            </div>
+
+            <div class="skill-card">
+              <img
+                src="https://cdn.simpleicons.org/github/ffffff"
+                alt="GitHub icon"
+                class="skill-icon"
+              />
+              <h3>Git & GitHub</h3>
+              <p>Version control and collaborative coding workflows.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact">
+        <div class="container">
+          <h2>Get in Touch</h2>
+          <p class="section-subtitle">
+            Have a project, idea, or just want to say hi? Let’s connect!
+          </p>
+
+          <form class="contact-form">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input
+                type="text"
+                id="name"
+                placeholder="Enter your name"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Your Email</label>
+              <input
+                type="email"
+                id="email"
+                placeholder="Enter your email"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="message">Your Message</label>
+              <textarea
+                id="message"
+                rows="5"
+                placeholder="Write your message..."
+                required
+              ></textarea>
+            </div>
+
+            <button type="submit">Send Message</button>
+          </form>
+
+          <div class="contact-info">
+            <div class="info-box">
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/646/646094.png"
+                alt="email"
+              />
+              <h4>Email</h4>
+              <p>bogdanj766@gmail.com</p>
+            </div>
+
+            <div class="info-box">
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/597/597177.png"
+                alt="phone"
+              />
+              <h4>Phone</h4>
+              <p>+381 69 683 078</p>
+            </div>
+
+            <div class="info-box">
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/1384/1384014.png"
+                alt="linkedin"
+              />
+              <h4>LinkedIn</h4>
+              <a href="https://github.com/bogdanj766-coder">View Profile</a>
+            </div>
+
+            <div class="info-box">
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/733/733553.png"
+                alt="github"
+              />
+              <h4>GitHub</h4>
+              <a href="https://github.com/bogdanj766-coder">Check Projects</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <p>© 2025 Bogdan Jovanović</p>
+    </footer>
+
+    <a href="#top" class="back-to-top" aria-label="Back to top">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="arrow-up"
+      >
+        <polyline points="18 15 12 9 6 15"></polyline>
+      </svg>
+    </a>
+  </body>
+</html>
